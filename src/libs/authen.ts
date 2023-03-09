@@ -22,7 +22,7 @@ export const authen = (app: Elysia) =>
                         refresh_token
                     })
 
-                if (error) throw error
+                if (refreshError) throw error
 
                 return {
                     userId: refreshed.user!.id
