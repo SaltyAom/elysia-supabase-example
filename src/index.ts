@@ -5,16 +5,6 @@ import { swagger } from '@elysiajs/swagger'
 import { auth, post } from './modules'
 
 const app = new Elysia()
-    // TODO: Inherits reference model of a plugin for Swagger
-    // Should be fixed on stable release
-    .setModel({
-        sign: t.Object({
-            email: t.String(),
-            password: t.String({
-                minLength: 8
-            })
-        })
-    })
     .use(
         swagger({
             documentation: {
