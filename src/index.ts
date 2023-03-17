@@ -10,7 +10,7 @@ const app = new Elysia()
             documentation: {
                 info: {
                     title: 'Elysia Supabase Authentication',
-                    version: '0.3.0-rc'
+                    version: '0.3.0'
                 },
                 tags: [
                     {

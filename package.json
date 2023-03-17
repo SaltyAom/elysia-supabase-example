@@ -6,10 +6,10 @@
     "dev": "bun run --hot src/index.ts"
   },
   "dependencies": {
-    "@elysiajs/cookie": "^0.3.0-rc.0",
-    "@elysiajs/swagger": "rc",
+    "@elysiajs/cookie": "^0.3.0",
+    "@elysiajs/swagger": "^0.3.0",
     "@supabase/supabase-js": "^2.10.0",
-    "elysia": "rc"
+    "elysia": "^0.3.1"
   },
   "devDependencies": {
     "bun-types": "latest"

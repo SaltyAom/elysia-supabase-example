@@ -23,7 +23,9 @@ export const auth = (app: Elysia) =>
             app
                 .setModel({
                     sign: t.Object({
-                        email: t.String(),
+                        email: t.String({
+                            format: 'email'
+                        }),
                         password: t.String({
                             minLength: 8
                         })
